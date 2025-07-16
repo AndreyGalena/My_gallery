@@ -80,9 +80,6 @@ function createGallery(arr) {
     `).join("");
 }
 // ---------------------------------------------------------------------------------------------
-const imgEl = document.querySelector("img.gallery-image");
-
-
 container.addEventListener("click", (event) => {
     event.preventDefault(); // Останавливает переход по ссылке
     if (event.currentTarget === event.target) {
